@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Joker</string>
+    <string name="times_app_opened">Times this app has been opened:</string>
+</resources>
