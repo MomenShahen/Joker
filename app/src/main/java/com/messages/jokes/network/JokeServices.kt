@@ -6,7 +6,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface JokeServices {
-    @GET("joke/Any")
+    @GET("joke/Programming")
     suspend fun getJokes(
         @Query("amount") amount: Int
     ): Response<JokeResponse>
