@@ -9,7 +9,7 @@ class JokeRepository @Inject constructor(var jokeServices: JokeServices){
         id: Int
     ): Response<JokeResponse> {
         return jokeServices.getJokes(
-            id
+            id,"twopart"
         )
     }
 
